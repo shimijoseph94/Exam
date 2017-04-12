@@ -1,15 +1,7 @@
-echo "enter basic salary"
-read bp
-echo "bp is $bp"
-TA=250
-echo "TA is $TA"
-
- DA=`expr $bp \*  50 / 100`
-echo "DA is $DA"
- 
- HRA=`expr $bp \*  10 / 100`
-echo "HRA is $HRA"
- 
-grosssal=`expr $bp + $DA + $HRA + $TA`
-echo "grosspay is $grosssal"
-
+1420	12.56	45
+3278	14.56	22
+5671	22.54	29
+4321	25.09	56
+7234	32.44	30
+9234	41.22	19
+3219	56.7	12
